@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"] {
+    @apply w-full border my-1 px-3 py-2 rounded-2xl;
+}
+
+input[type="checkbox"] {
+    @apply h-4 w-4 my-auto;
+}
+
+label {
+    @apply border inline-flex p-4 rounded-xl;
+}
